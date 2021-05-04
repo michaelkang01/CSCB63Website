@@ -1,0 +1,67 @@
+@import "nav-footer.css";
+
+/*Month Header*/
+.month {
+    padding: 50px 25px;
+    background: #436168;
+    text-align: center;
+  }
+  
+  .month ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .month ul li {
+    list-style-type: none;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  }
+  
+  /*Weekday content*/
+  .weekdays {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 0;
+    background-color:#ddd;
+  }
+  
+  .weekdays li {
+    display: inline-block;
+    width: 13.6%;
+    color: #666;
+    text-align: center;
+  }
+  
+  /*Days*/
+  .days {
+    padding: 10px 0;
+    background: #eee;
+    margin: 0;
+  }
+  
+  .days li {
+    list-style-type: none;
+    display: inline-table;
+    width: 13.6%;
+    margin-bottom: 5px;
+    font-size:12px;
+    color: #777;
+  }
+  
+  .days li h3 {
+    padding-left: 20px;
+    vertical-align: text-top;
+  }
+
+  .days li p{
+      font-size: 11px;
+      padding-left: 20px;
+  }
+
+  /*Header for Lecture or OH*/
+  #Lect-office{
+    color: #54808a;
+  }

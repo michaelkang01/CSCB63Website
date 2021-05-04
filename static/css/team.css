@@ -1,0 +1,113 @@
+@import "nav-footer.css";
+
+/*Container set so 4 rows of images show*/
+.container{
+	width:85%;
+	margin:auto;
+	overflow:hidden;
+}
+.clr{
+    clear:both
+}
+/*TA's Information*/
+.square{
+    float: left;
+    width: 300px;
+    height: 190px;
+    padding: 5px;
+    box-sizing: border-box;
+    border: #555;
+
+    margin: 10px;
+}
+
+/*TA's Photos*/
+.avatar{
+    float: left;
+    width: 40%;
+    height: 75%;
+    margin: 0px;
+    padding: 5px;
+    font-size: 10.5px;
+    line-height: 1.5;
+    color: #555;
+}
+.avatar h2{
+    color: #5c848d;
+}
+
+/*Instructor Info*/
+.block{
+    float: left;
+    width: 45%;
+    height: 30%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: #555;
+    border-style:double;
+    border-width: 4px;
+    border-color:#5c848d;
+    background-color: #5c848d;
+    margin: 10px;
+    color: rgb(15, 12, 59);
+}
+.img{
+    float: left;
+    width: 30%;
+    height: 70%;
+    margin: 0px;
+    padding: 5px;
+    font-size: 18px;
+    color: black;
+    line-height: 1.5;
+}
+.desc{
+    float: left;
+    width: 60%;
+    height: 75%;
+    margin: 5px;
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+    line-height: 1.7;
+
+}
+
+/*If window size is too thin take on these properties*/
+@media(max-width:800px){
+    /*TA Images are shown stacked*/
+	.square{
+        float: left;
+        width: 90%;
+        height: 90%;
+        padding: 10px;
+        margin: 10px;
+        box-sizing:border-box;
+    }
+
+    .avatar{
+        float: left;
+        width: 40%;
+        height: 60%;
+        margin: 0px;
+        padding: 5px;
+        font-size: 12px;
+        line-height: 1.8;
+    }
+
+    .block{
+        float: left;
+        width: 90%;
+        height: 90%;
+        padding: 10px;
+        box-sizing: border-box;
+        border: #555;
+        border-style:double;
+        border-width: 4px;
+        border-color:#5c848d;
+        background-color: #5c848d;
+        margin: 10px;
+        box-sizing:border-box;
+        color: rgb(15, 12, 59);
+    }
+}

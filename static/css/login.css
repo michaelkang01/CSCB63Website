@@ -1,0 +1,71 @@
+@import "nav-footer.css";
+
+.container{
+    text-align: center;
+}
+
+#main-heading h1{
+    text-align: left;
+	font-size:70px;
+	padding-bottom: 3px;
+    margin: 20px;
+}
+#main-heading h4{
+    text-align: left;
+}
+
+#logo-img{
+    text-align: center;
+    width: 25%;
+    height: 10%;
+    margin-top: 15px;
+    padding: 1px;
+}
+
+.subcont{
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    box-sizing: border-box;
+}
+.subcont form{
+	color:#333;
+    width: 60%;
+    height: 100%;
+    padding: 10px;
+    margin: auto;
+    border-color: #436168;
+    border-style: outset;
+    border-left-style:unset;
+    border-right-style:unset;
+    border-width: 4px;
+}
+.user-pass-box{
+    padding: 5px;
+    margin: 5px;
+}
+.subcont form .form-box{
+    width: 60%;
+    height: 30%;
+    border-radius: 2px;
+    border-style:double;
+    border-color: teal;
+    margin: 5px;
+    padding: 5px;
+}
+
+#submitBtn{
+    background:#436168;
+    color: white;
+    margin: 5px;
+    padding: 4px;
+    border-style:inset;
+    border-radius: 4px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+#submitBtn:hover{
+    opacity: 0.7;
+}
+

@@ -1,0 +1,108 @@
+@import "nav-footer.css";
+/*Special navbar properties since over image*/
+#navbar{
+	background-color: None;
+    margin:auto;
+	overflow:hidden;
+}
+
+#navbar ul{
+	position: absolute;
+	right: 0px;
+	padding:0;
+	list-style: none;
+}
+
+/*Image Backdrop*/
+#showcase{
+	background-image:url('../images/showcase.jpg');
+	background-position:center right;
+	min-height:400px;
+	text-align: center;
+}
+
+#showcase h1{
+	color:#fff;
+	font-size:80px;
+	padding-top: 0px;
+	margin: 20px;
+}
+
+#showcase h4{
+	color:#fff;
+	font-size:18px;
+	padding-top: 150px;
+	margin-bottom: 30px;
+
+}
+
+/*Course Description*/
+#desc{
+	background:rgb(27, 27, 27);
+	text-align: center;
+	color: #436168;
+	padding:10px;
+	margin:0px;
+}
+
+#desc h1{
+	font-size:22px;
+	color: #6da1ad;
+}
+
+/*Instructor Info*/
+#instructor{
+	width: 80%;
+	margin: auto;
+}
+
+img{
+	float: right;
+	padding-bottom:20px;
+	position: relative;
+}
+
+/*Syllabus Images*/
+div.gallery {
+	margin: auto;
+	float: center;
+} 
+  
+div.gallery img {
+	padding-top: 20px;
+	width: 30%;
+	max-width: 200px;
+	height: 30%;
+	max-height: 200px;
+	padding-bottom: 20px;
+}
+
+#sidetext{
+	float:right;
+	width:70%;
+	color:#555;
+	padding:10px;
+	padding-right: min(700px, 15%);
+	box-sizing:border-box;
+}
+
+
+#sidetext h{
+	overflow:hidden;
+	font-weight: bold;
+}
+
+/*If window is too thin switch to these settings*/
+@media(max-width:700px){
+	/*Stack Images and Info*/
+	div.gallery img{
+		width: 200px;
+		height: 200px;
+		float: none;
+	}
+
+	#sidetext{
+		width:100%;
+		float:none;
+	}
+}

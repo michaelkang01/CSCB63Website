@@ -1,0 +1,41 @@
+@import "nav-footer.css";
+
+table, th, td{
+    border: 1px solid #436168;
+    border-collapse: collapse;
+}
+
+th{
+    background-color: lightgrey;
+    font-size: 14px;
+    padding: 5px;
+}
+td{
+    padding: 5px;
+}
+
+
+#login{
+    background-color: #5a8c97;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+.img{
+    float: left;
+    width: 20%;
+    height: 20%;
+    margin: 0px;
+    padding: 5px;
+    color: black;
+    line-height: 1.5;
+}
+
+

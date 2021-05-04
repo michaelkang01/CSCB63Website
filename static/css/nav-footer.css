@@ -1,0 +1,101 @@
+/*Declaring General Format*/
+body{
+	background-color:#f4f4f4;
+	color: #555;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:16px;
+	line-height:1.6em;
+	margin:0;
+	padding:0;
+}
+
+.container{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+
+/*Navigation Bar Properties*/
+#navbar{
+	background-color:#6f9faa;
+    margin:auto;
+	overflow:hidden;
+}
+
+#navbar ul{
+    padding:0;
+    right: 0px;
+	list-style: none;
+    text-align: end;
+}
+
+#navbar li{
+	display:inline;
+}
+
+#navbar a{
+	color:#fff;
+	text-decoration: none;
+	font-size:16px;
+	padding-right:15px;
+}
+
+#navbar a:hover{
+	color:rgb(170, 170, 170);
+}
+
+#topLogin{
+	float: right;
+	padding: 6px 10px;
+	margin: auto;
+	background-color: #333;
+	color: white;
+	border: none;
+	cursor: pointer;
+}
+
+/*Main Heading*/
+#main-heading h1{
+	color:#333;
+	font-size:90px;
+	line-height: 0.7em;
+	padding-top: 0px;
+	margin: 20px;
+}
+
+#main-heading h4{
+	color:#333;
+	font-size:16px;
+	padding-top: 50px;
+	margin-bottom: 30px;
+}
+
+/*Footer*/
+#main-footer{
+	overflow:hidden;
+	background: #333;
+	color: #fff;
+	text-align: center;
+	padding:40px;
+	margin-top:40px;
+	position:sticky;
+}
+
+#chngLgn{
+	background-color: #436168;
+	color: white;
+	border: none;
+	cursor: pointer;
+}
+
+/*Link Properties*/
+a:link{
+	color:#436168;
+}
+a:hover{
+	color:rgb(209, 46, 46);
+}
+
+a:active{
+	color:rgb(95, 95, 95);
+}

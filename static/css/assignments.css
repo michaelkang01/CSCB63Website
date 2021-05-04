@@ -1,0 +1,24 @@
+@import "nav-footer.css";
+
+/*Assignments Section*/
+#assignment h1{
+	color: #436168;
+}
+
+#assignment p{
+    font-size: 14px;
+}
+/*Worksheets Section*/
+#worksheets h1{
+	color: #436168;
+}
+
+/*Labs Section*/
+#labs h1{
+	color: #436168;
+}
+
+#labs p{
+	font-size: 14px;
+}
+
